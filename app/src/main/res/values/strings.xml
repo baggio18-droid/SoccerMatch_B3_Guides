@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Soccer Match</string>
+    <string name="app_title">APLAS SOCCER BOARD</string>
+    <string name="content_logo">UpdateLogo</string>
+    <string name="soccer_match_score">Soccer Match Score</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_team">Home Team</string>
+    <string name="home_team_name">Enter home team name</string>
+    <string name="players_number">0 player(s)</string>
+    <string name="away_team">Away Team</string>
+    <string name="home_away_name">Enter away team name</string>
+    <string name="btn_text">Next</string>
+</resources>

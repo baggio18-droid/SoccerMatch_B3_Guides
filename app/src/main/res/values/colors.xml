@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#1B1B1B</color>
+    <color name="white">#E4E4E4</color>
+    <color name="colorPrimary">#6F69AC</color>
+    <color name="yellow">#FFEBA1</color>
+    <color name="colorPrimaryDark">#2A0944</color>
+    <color name="colorAccent">#A12568</color>
+    <color name="colorHomeBg">#FFF8E5</color>
+    <color name="colorAwayTitle">#FEC260</color>
+    <color name="colorHomePlay">#e2e2e2</color>
+    <color name="orange">#f27a30</color>
+    <color name="blue">#3333ff</color>
+    <color name="lightBlue">#33ffff</color>
+    <color name="green">#00ff00</color>
+    <color name="lightGreen">#80ff80</color>
+    <color name="homeTeam">#001d7e</color>
+    <color name="awayTeam">#01443e</color>
+    <color name="colorRed">#dc143c</color>
+    <color name="colorPink">#ffb6c1</color>
+</resources>

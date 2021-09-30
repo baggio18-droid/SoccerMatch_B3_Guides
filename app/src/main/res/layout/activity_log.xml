@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    tools:context=".LogActivity">
+    <TextView
+        android:id="@+id/matchResultTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Home Team: 3"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:background="#FEC260"
+        android:textAlignment="center"
+        android:textColor="#3B185F" />
+
+    <TextView
+        android:id="@+id/matchScoreTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Away Team: 1"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="#FEC260"
+        android:background="#3B185F"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/logRcView"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:textAlignment="center" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="7dp">
+        <Button
+            android:id="@+id/restartBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Match" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
